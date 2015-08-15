@@ -7,9 +7,9 @@ No rights reserved.
 
 /* [Parameters] */
 // This makes the cone taller! Note; values smaller than ~30 may not be printable.
-CrystalHeight = 30;
+CrystalHeight = 26;
 // Radius of the cone point, just in case you don't want a cone.
-ConePoint = 0.1;
+ConePoint = 5;
 // This is the wall thickness of the cone -- note, my math is broken.
 WallThickness = 0.8;
 // Used to tune the snap-fit
