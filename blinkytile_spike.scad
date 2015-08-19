@@ -7,9 +7,9 @@ No rights reserved.
 
 /* [Parameters] */
 // This makes the cone taller! Note; values smaller than ~30 may not be printable.
-CrystalHeight = 26;
+CrystalHeight = 20;
 // Radius of the cone point, just in case you don't want a cone.
-ConePoint = 5;
+ConePoint = 8;
 // This is the wall thickness of the cone -- note, my math is broken.
 WallThickness = 0.8;
 // Used to tune the snap-fit
@@ -49,7 +49,7 @@ module cone(){
 
 /* Holes for sewing */
 
-render() difference() {
+translate([0,0,20]) rotate([180,0,0]) render() difference() {
 
 	cone();
 
